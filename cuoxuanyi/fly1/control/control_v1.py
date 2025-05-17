@@ -123,13 +123,17 @@ class OffboardControl(Node):
     #     """ 处理 Ctrl+C 信号，保存图像后退出 """
     #     print("\nCaught Ctrl+C! Saving plot before exit...")
     #     self.visualize.plot_and_save()
-    #     sys.exit(0)
-
-
-    def target_position_callback(self, msg: Point):
+    #     sys.exit(0)    def target_position_callback(self, msg: Point):
         """Callback function for receiving target position."""
         self.target_position = msg
-        # self.get_logger().info(f"Received target position: {self.target_position}")
+        self.get_logger().info(f"收到目标位置: x={msg.x:.2f}, y={msg.y:.2f}, z={msg.z:.2f}")
+        # 为测试目的，输出更详细的信息
+        if self.vehicle_local_position:
+            current_x = self.vehicle_local_position.x
+            current_y = self.vehicle_local_position.y
+            current_z = self.vehicle_local_position.z
+            self.get_logger().info(f"当前位置: x={current_x:.2f}, y={current_y:.2f}, z={current_z:.2f}")
+            self.get_logger().info(f"与目标的距离: dx={msg.x-current_x:.2f}, dy={msg.y-current_y:.2f}")
 
     def current_height_callback(self, msg):
         self.CurrentHeightFromCamera = msg.data
@@ -198,9 +202,7 @@ class OffboardControl(Node):
         msg.yaw = self.init_yaw  # (90 degree)
         msg.timestamp = int(self.get_clock().now().nanoseconds / 1000)
         self.trajectory_setpoint_publisher.publish(msg)
-        # self.get_logger().info(f"Publishing position setpoints {[x, y, z]}")
-
-    def publish_vehicle_command(self, command, **params) -> None:
+        # self.get_logger().info(f"Publishing position setpoints {[x, y, z]}")    def publish_vehicle_command(self, command, **params) -> None:
         """Publish a vehicle command."""
         msg = VehicleCommand()
         msg.command = command
@@ -218,40 +220,49 @@ class OffboardControl(Node):
         msg.from_external = True
         msg.timestamp = int(self.get_clock().now().nanoseconds / 1000)
         self.vehicle_command_publisher.publish(msg)
-    
+        
     def drop_payload(self):
         """Drop the payload (example logic)."""
-                # 设置GPIO模式为BCM
-        GPIO.setmode(GPIO.BCM)
-
-        # 设置GPIO17为输出模式
-        servo_pin = 17
-        GPIO.setup(servo_pin, GPIO.OUT)
-
-        # 设置PWM频率为50Hz
-        pwm = GPIO.PWM(servo_pin, 50)
-        pwm.start(0)
-
-        def set_angle(angle):
-            try:
-            # 将角度转换为占空比
-                duty = 2.5 + (angle / 18.0)
-                pwm.ChangeDutyCycle(duty)
-                time.sleep(1)
-                pwm.ChangeDutyCycle(0)
-            except Exception as e:
-                print(e)
-
         try:
-            set_angle(90)
-        except KeyboardInterrupt:
-            pass
-        except Exception as e:
-            print(e)
-        finally:
-            # pwm.stop()  # 确保停止PWM
-            # GPIO.cleanup()  # 清理GPIO设置
-            pass
+            # 尝试导入GPIO库，如果不可用则跳过
+            import RPi.GPIO as GPIO
+            
+            # 设置GPIO模式为BCM
+            GPIO.setmode(GPIO.BCM)
+
+            # 设置GPIO17为输出模式
+            servo_pin = 17
+            GPIO.setup(servo_pin, GPIO.OUT)
+
+            # 设置PWM频率为50Hz
+            pwm = GPIO.PWM(servo_pin, 50)
+            pwm.start(0)
+
+            def set_angle(angle):
+                try:
+                    # 将角度转换为占空比
+                    duty = 2.5 + (angle / 18.0)
+                    pwm.ChangeDutyCycle(duty)
+                    time.sleep(1)
+                    pwm.ChangeDutyCycle(0)
+                except Exception as e:
+                    print(f"设置角度错误: {e}")
+
+            try:
+                set_angle(90)
+                self.get_logger().info("伺服电机旋转到90度")
+            except KeyboardInterrupt:
+                pass
+            except Exception as e:
+                print(f"伺服控制错误: {e}")
+            finally:
+                # pwm.stop()  # 确保停止PWM
+                # GPIO.cleanup()  # 清理GPIO设置
+                pass
+        except ImportError:
+            # 如果GPIO库不可用，只打印模拟投放信息
+            self.get_logger().info("模拟模式：无法使用GPIO，仅记录投放动作")
+            
         self.get_logger().info("---------------Payload dropped.-------------------")
 
     def takeoff_relative(self, relative_height):
