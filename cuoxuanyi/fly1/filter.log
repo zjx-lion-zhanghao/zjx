@@ -725,3 +725,156 @@
 [INFO] [1747469993.779037020] [bucket_filter_node]: 接收到3个桶的数据
 [INFO] [1747469993.779293071] [bucket_filter_node]: 最小桶位置: x=-0.09, y=-0.16, size=0.22
 [INFO] [1747469993.779531670] [bucket_filter_node]: 已发布目标位置: x=-0.09, y=-0.16
+[INFO] [1747469995.775835805] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747469995.776103582] [bucket_filter_node]: 最小桶位置: x=0.28, y=-0.47, size=0.20
+[INFO] [1747469995.776515818] [bucket_filter_node]: 已发布目标位置: x=0.28, y=-0.47
+[INFO] [1747469997.780637903] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747469997.780949352] [bucket_filter_node]: 最小桶位置: x=0.43, y=-0.30, size=0.14
+[INFO] [1747469997.781271473] [bucket_filter_node]: 已发布目标位置: x=0.43, y=-0.30
+[INFO] [1747469999.775224278] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747469999.775510155] [bucket_filter_node]: 最小桶位置: x=0.45, y=-0.02, size=0.13
+[INFO] [1747469999.775787913] [bucket_filter_node]: 已发布目标位置: x=0.45, y=-0.02
+[INFO] [1747470001.775013350] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470001.775208222] [bucket_filter_node]: 最小桶位置: x=0.51, y=0.16, size=0.21
+[INFO] [1747470001.775453330] [bucket_filter_node]: 已发布目标位置: x=0.51, y=0.16
+[INFO] [1747470003.775128984] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470003.775320474] [bucket_filter_node]: 最小桶位置: x=-0.61, y=0.08, size=0.23
+[INFO] [1747470003.775601029] [bucket_filter_node]: 已发布目标位置: x=-0.61, y=0.08
+[INFO] [1747470005.776331697] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470005.776597771] [bucket_filter_node]: 最小桶位置: x=0.01, y=-0.47, size=0.12
+[INFO] [1747470005.776921789] [bucket_filter_node]: 已发布目标位置: x=0.01, y=-0.47
+[INFO] [1747470007.777171407] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470007.777571687] [bucket_filter_node]: 最小桶位置: x=0.84, y=-0.51, size=0.19
+[INFO] [1747470007.778007884] [bucket_filter_node]: 已发布目标位置: x=0.84, y=-0.51
+[INFO] [1747470009.776256740] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470009.776475374] [bucket_filter_node]: 最小桶位置: x=-0.98, y=-0.66, size=0.17
+[INFO] [1747470009.776710727] [bucket_filter_node]: 已发布目标位置: x=-0.98, y=-0.66
+[INFO] [1747470011.777653884] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470011.778077833] [bucket_filter_node]: 最小桶位置: x=0.34, y=-0.09, size=0.19
+[INFO] [1747470011.778506523] [bucket_filter_node]: 已发布目标位置: x=0.34, y=-0.09
+[INFO] [1747470013.777042431] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470013.777428133] [bucket_filter_node]: 最小桶位置: x=0.87, y=-0.18, size=0.16
+[INFO] [1747470013.777925709] [bucket_filter_node]: 已发布目标位置: x=0.87, y=-0.18
+[INFO] [1747470015.777125475] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470015.777493411] [bucket_filter_node]: 最小桶位置: x=0.29, y=0.39, size=0.20
+[INFO] [1747470015.777943681] [bucket_filter_node]: 已发布目标位置: x=0.29, y=0.39
+[INFO] [1747470017.774981532] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470017.775255441] [bucket_filter_node]: 最小桶位置: x=-0.24, y=0.48, size=0.17
+[INFO] [1747470017.775493066] [bucket_filter_node]: 已发布目标位置: x=-0.24, y=0.48
+[INFO] [1747470019.775351950] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470019.775542318] [bucket_filter_node]: 最小桶位置: x=0.48, y=-0.45, size=0.22
+[INFO] [1747470019.775781320] [bucket_filter_node]: 已发布目标位置: x=0.48, y=-0.45
+[INFO] [1747470021.776662903] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470021.776899485] [bucket_filter_node]: 最小桶位置: x=-0.05, y=-0.37, size=0.13
+[INFO] [1747470021.777136999] [bucket_filter_node]: 已发布目标位置: x=-0.05, y=-0.37
+[INFO] [1747470023.778305789] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470023.778768201] [bucket_filter_node]: 最小桶位置: x=0.38, y=-0.19, size=0.19
+[INFO] [1747470023.779281109] [bucket_filter_node]: 已发布目标位置: x=0.38, y=-0.19
+[INFO] [1747470025.778062534] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470025.778459775] [bucket_filter_node]: 最小桶位置: x=-0.41, y=-0.32, size=0.10
+[INFO] [1747470025.779008102] [bucket_filter_node]: 已发布目标位置: x=-0.41, y=-0.32
+[INFO] [1747470027.777136412] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470027.777339932] [bucket_filter_node]: 最小桶位置: x=-0.63, y=0.59, size=0.23
+[INFO] [1747470027.777575164] [bucket_filter_node]: 已发布目标位置: x=-0.63, y=0.59
+[INFO] [1747470029.777202721] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470029.777428807] [bucket_filter_node]: 最小桶位置: x=-0.39, y=-0.30, size=0.22
+[INFO] [1747470029.777672790] [bucket_filter_node]: 已发布目标位置: x=-0.39, y=-0.30
+[INFO] [1747470031.776917852] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470031.777164599] [bucket_filter_node]: 最小桶位置: x=-0.83, y=0.01, size=0.23
+[INFO] [1747470031.777452054] [bucket_filter_node]: 已发布目标位置: x=-0.83, y=0.01
+[INFO] [1747470033.777601439] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470033.777952299] [bucket_filter_node]: 最小桶位置: x=-0.25, y=0.47, size=0.12
+[INFO] [1747470033.778390930] [bucket_filter_node]: 已发布目标位置: x=-0.25, y=0.47
+[INFO] [1747470035.778496016] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470035.778872964] [bucket_filter_node]: 最小桶位置: x=0.55, y=0.31, size=0.25
+[INFO] [1747470035.779356713] [bucket_filter_node]: 已发布目标位置: x=0.55, y=0.31
+[INFO] [1747470037.776667045] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470037.776891100] [bucket_filter_node]: 最小桶位置: x=0.10, y=-0.27, size=0.18
+[INFO] [1747470037.777147318] [bucket_filter_node]: 已发布目标位置: x=0.10, y=-0.27
+[INFO] [1747470039.776019153] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470039.776240333] [bucket_filter_node]: 最小桶位置: x=-0.61, y=0.13, size=0.25
+[INFO] [1747470039.776496997] [bucket_filter_node]: 已发布目标位置: x=-0.61, y=0.13
+[INFO] [1747470041.777613631] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470041.777987445] [bucket_filter_node]: 最小桶位置: x=-0.77, y=-0.33, size=0.25
+[INFO] [1747470041.778429074] [bucket_filter_node]: 已发布目标位置: x=-0.77, y=-0.33
+[INFO] [1747470043.775175268] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470043.775401619] [bucket_filter_node]: 最小桶位置: x=-0.17, y=-0.06, size=0.13
+[INFO] [1747470043.775700098] [bucket_filter_node]: 已发布目标位置: x=-0.17, y=-0.06
+[INFO] [1747470045.777480120] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470045.777828732] [bucket_filter_node]: 最小桶位置: x=0.74, y=0.53, size=0.10
+[INFO] [1747470045.778302916] [bucket_filter_node]: 已发布目标位置: x=0.74, y=0.53
+[INFO] [1747470047.777249912] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470047.777721768] [bucket_filter_node]: 最小桶位置: x=0.62, y=0.31, size=0.17
+[INFO] [1747470047.778097877] [bucket_filter_node]: 已发布目标位置: x=0.62, y=0.31
+[INFO] [1747470049.774886151] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470049.775119710] [bucket_filter_node]: 最小桶位置: x=-0.69, y=-0.42, size=0.13
+[INFO] [1747470049.775387479] [bucket_filter_node]: 已发布目标位置: x=-0.69, y=-0.42
+[INFO] [1747470051.777463479] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470051.777874112] [bucket_filter_node]: 最小桶位置: x=0.16, y=0.32, size=0.10
+[INFO] [1747470051.778256341] [bucket_filter_node]: 已发布目标位置: x=0.16, y=0.32
+[INFO] [1747470053.776357937] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470053.776587803] [bucket_filter_node]: 最小桶位置: x=0.56, y=0.16, size=0.10
+[INFO] [1747470053.776880642] [bucket_filter_node]: 已发布目标位置: x=0.56, y=0.16
+[INFO] [1747470055.779015259] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470055.779441578] [bucket_filter_node]: 最小桶位置: x=-0.74, y=-0.42, size=0.24
+[INFO] [1747470055.779894303] [bucket_filter_node]: 已发布目标位置: x=-0.74, y=-0.42
+[INFO] [1747470057.777364958] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470057.777749708] [bucket_filter_node]: 最小桶位置: x=-0.70, y=-0.31, size=0.23
+[INFO] [1747470057.778211835] [bucket_filter_node]: 已发布目标位置: x=-0.70, y=-0.31
+[INFO] [1747470059.777263995] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470059.777459490] [bucket_filter_node]: 最小桶位置: x=0.06, y=-0.12, size=0.12
+[INFO] [1747470059.777717130] [bucket_filter_node]: 已发布目标位置: x=0.06, y=-0.12
+[INFO] [1747470061.777334082] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470061.777574887] [bucket_filter_node]: 最小桶位置: x=-0.34, y=-0.05, size=0.20
+[INFO] [1747470061.777829208] [bucket_filter_node]: 已发布目标位置: x=-0.34, y=-0.05
+[INFO] [1747470063.777339694] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470063.777755077] [bucket_filter_node]: 最小桶位置: x=0.08, y=0.32, size=0.11
+[INFO] [1747470063.778197248] [bucket_filter_node]: 已发布目标位置: x=0.08, y=0.32
+[INFO] [1747470065.778873375] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470065.779283225] [bucket_filter_node]: 最小桶位置: x=0.50, y=-0.62, size=0.11
+[INFO] [1747470065.779706225] [bucket_filter_node]: 已发布目标位置: x=0.50, y=-0.62
+[INFO] [1747470067.775160790] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470067.775351647] [bucket_filter_node]: 最小桶位置: x=-0.88, y=-0.49, size=0.10
+[INFO] [1747470067.775593469] [bucket_filter_node]: 已发布目标位置: x=-0.88, y=-0.49
+[INFO] [1747470069.776342418] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470069.776652062] [bucket_filter_node]: 最小桶位置: x=-0.89, y=0.08, size=0.20
+[INFO] [1747470069.777047632] [bucket_filter_node]: 已发布目标位置: x=-0.89, y=0.08
+[INFO] [1747470071.777395822] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470071.777835887] [bucket_filter_node]: 最小桶位置: x=-0.66, y=0.44, size=0.23
+[INFO] [1747470071.778112461] [bucket_filter_node]: 已发布目标位置: x=-0.66, y=0.44
+[INFO] [1747470073.777793756] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470073.778486552] [bucket_filter_node]: 最小桶位置: x=-0.54, y=0.38, size=0.17
+[INFO] [1747470073.778862656] [bucket_filter_node]: 已发布目标位置: x=-0.54, y=0.38
+[INFO] [1747470075.777370003] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470075.777715640] [bucket_filter_node]: 最小桶位置: x=-0.04, y=-0.12, size=0.18
+[INFO] [1747470075.778034313] [bucket_filter_node]: 已发布目标位置: x=-0.04, y=-0.12
+[INFO] [1747470077.777867146] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470077.778310579] [bucket_filter_node]: 最小桶位置: x=-0.61, y=-0.28, size=0.23
+[INFO] [1747470077.778804550] [bucket_filter_node]: 已发布目标位置: x=-0.61, y=-0.28
+[INFO] [1747470079.774932937] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470079.775158450] [bucket_filter_node]: 最小桶位置: x=0.03, y=-0.29, size=0.19
+[INFO] [1747470079.775399202] [bucket_filter_node]: 已发布目标位置: x=0.03, y=-0.29
+[INFO] [1747470081.777758919] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470081.778126942] [bucket_filter_node]: 最小桶位置: x=-0.44, y=0.41, size=0.15
+[INFO] [1747470081.778490329] [bucket_filter_node]: 已发布目标位置: x=-0.44, y=0.41
+[INFO] [1747470083.776297168] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470083.776521037] [bucket_filter_node]: 最小桶位置: x=0.24, y=-0.32, size=0.18
+[INFO] [1747470083.776757316] [bucket_filter_node]: 已发布目标位置: x=0.24, y=-0.32
+[INFO] [1747470085.777603333] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470085.778145435] [bucket_filter_node]: 最小桶位置: x=-0.95, y=-0.52, size=0.14
+[INFO] [1747470085.778715140] [bucket_filter_node]: 已发布目标位置: x=-0.95, y=-0.52
+[INFO] [1747470087.776603967] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470087.776849705] [bucket_filter_node]: 最小桶位置: x=0.16, y=0.30, size=0.19
+[INFO] [1747470087.777167797] [bucket_filter_node]: 已发布目标位置: x=0.16, y=0.30
+[INFO] [1747470089.777929803] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470089.778157636] [bucket_filter_node]: 最小桶位置: x=0.91, y=0.59, size=0.15
+[INFO] [1747470089.778464399] [bucket_filter_node]: 已发布目标位置: x=0.91, y=0.59
+[INFO] [1747470091.776360614] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470091.776564536] [bucket_filter_node]: 最小桶位置: x=0.94, y=0.06, size=0.18
+[INFO] [1747470091.776820974] [bucket_filter_node]: 已发布目标位置: x=0.94, y=0.06
+[INFO] [1747470093.776294526] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470093.776792967] [bucket_filter_node]: 最小桶位置: x=0.54, y=-0.04, size=0.16
+[INFO] [1747470093.777146978] [bucket_filter_node]: 已发布目标位置: x=0.54, y=-0.04
+[INFO] [1747470095.778212629] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470095.778678681] [bucket_filter_node]: 最小桶位置: x=0.83, y=0.31, size=0.24
+[INFO] [1747470095.779075174] [bucket_filter_node]: 已发布目标位置: x=0.83, y=0.31
