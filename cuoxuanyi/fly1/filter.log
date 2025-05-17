@@ -878,3 +878,27 @@
 [INFO] [1747470095.778212629] [bucket_filter_node]: 接收到3个桶的数据
 [INFO] [1747470095.778678681] [bucket_filter_node]: 最小桶位置: x=0.83, y=0.31, size=0.24
 [INFO] [1747470095.779075174] [bucket_filter_node]: 已发布目标位置: x=0.83, y=0.31
+[INFO] [1747470097.775078072] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470097.775336163] [bucket_filter_node]: 最小桶位置: x=-0.25, y=0.64, size=0.14
+[INFO] [1747470097.775589953] [bucket_filter_node]: 已发布目标位置: x=-0.25, y=0.64
+[INFO] [1747470099.777289359] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470099.777691640] [bucket_filter_node]: 最小桶位置: x=-0.08, y=-0.01, size=0.20
+[INFO] [1747470099.778054600] [bucket_filter_node]: 已发布目标位置: x=-0.08, y=-0.01
+[INFO] [1747470101.775209996] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470101.775438537] [bucket_filter_node]: 最小桶位置: x=0.10, y=-0.27, size=0.24
+[INFO] [1747470101.775670538] [bucket_filter_node]: 已发布目标位置: x=0.10, y=-0.27
+[INFO] [1747470103.775466656] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470103.775758245] [bucket_filter_node]: 最小桶位置: x=-0.62, y=0.69, size=0.15
+[INFO] [1747470103.775991831] [bucket_filter_node]: 已发布目标位置: x=-0.62, y=0.69
+[INFO] [1747470105.776801132] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470105.777112281] [bucket_filter_node]: 最小桶位置: x=-0.68, y=0.50, size=0.12
+[INFO] [1747470105.777420835] [bucket_filter_node]: 已发布目标位置: x=-0.68, y=0.50
+[INFO] [1747470107.775261022] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470107.775616238] [bucket_filter_node]: 最小桶位置: x=-0.27, y=0.05, size=0.15
+[INFO] [1747470107.775915339] [bucket_filter_node]: 已发布目标位置: x=-0.27, y=0.05
+[INFO] [1747470109.775371913] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470109.775606863] [bucket_filter_node]: 最小桶位置: x=-0.97, y=-0.27, size=0.15
+[INFO] [1747470109.775840214] [bucket_filter_node]: 已发布目标位置: x=-0.97, y=-0.27
+[INFO] [1747470111.777979946] [bucket_filter_node]: 接收到3个桶的数据
+[INFO] [1747470111.778580070] [bucket_filter_node]: 最小桶位置: x=0.91, y=-0.63, size=0.13
+[INFO] [1747470111.778984764] [bucket_filter_node]: 已发布目标位置: x=0.91, y=-0.63
